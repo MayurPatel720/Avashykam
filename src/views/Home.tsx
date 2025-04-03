@@ -1,8 +1,7 @@
-import React from 'react'
 import Countdown from './Countdown'
 
 const Home = () => {
-    const targetDate = '2025-03-01T23:59:59'
+    const targetDate = '2025-04-01T23:59:59'
 
     return (
         <div className="flex flex-col items-center justify-center  text-white">

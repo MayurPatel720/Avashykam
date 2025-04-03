@@ -13,7 +13,7 @@ const navigationConfig: NavigationTree[] = [
         translateKey: 'nav.Mayur',
         icon: 'home',
         type: NAV_ITEM_TYPE_ITEM,
-        authority: [],
+        authority: ['admin', 'student', 'consumer', 'canteen', 'feed', 'fine'],
         subMenu: [],
     },
     /** Example purpose only, please remove */

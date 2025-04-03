@@ -9,8 +9,7 @@ export const protectedRoutes = [
         key: 'home',
         path: '/home',
         component: lazy(() => import('@/views/Home')),
-        authority: [],
-    },
+        authority: ['admin', 'student', 'consumer', 'canteen', 'feed', 'fine'],    },
 
     {
         key: 'singleMenuItem',
